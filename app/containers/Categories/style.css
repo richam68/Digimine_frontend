@@ -1,0 +1,7 @@
+.MuiAccordion-rounded {
+    border-radius: 50;
+}
+.MuiDialog-paperWidthSm.MuiDialog-paper {
+    max-width: 600px;
+    border-radius: 50px;
+}

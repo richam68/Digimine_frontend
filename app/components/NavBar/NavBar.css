@@ -1,0 +1,95 @@
+.header{height: 80px;}
+.navbar {
+    background-color: #E5E5E5;
+    height: 80px;
+    /* display: flex;
+    justify-content: start; */
+    align-items: center;
+}
+
+.menu-bars {
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    background: none;
+    /* margin-top: 28px; */
+
+}
+
+.nav-menu {
+    background-color: #E5E5E5;
+    width: 220px;
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    position: fixed;
+    top: 0; 
+    margin: -20px;
+    margin-left: auto;
+    /* left: -100%;for sliding sidebar */
+    transition: 850ms;
+   
+
+}
+
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 0px 7px 2px;
+    list-style: none;
+    /* height: 40px; */
+    
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: #151F63;
+    font-size: 14px;
+    line-height: 19px;
+    width: 95%;
+    /* height: 80%; */
+    display: flex;
+    font-weight: 600;
+    font-family: 'Nunito';
+    font-style: normal;
+    border-radius: 4px;
+    align-items: center;
+    padding: 0 28px;
+}
+.nav-text a:hover {
+      background: #f5f5f5 !important; border: solid 0px #F66B6B; color: #F66B6B;
+}
+
+.nav-menu-items{
+    width:100%;
+    background-image: url('../../images/blue-navbar.svg');
+    display: block;
+    max-height: calc(100vh - 100px);
+    overflow: auto;
+}
+.navbar-toggle{
+    background-color: #E5E5E5;
+    width:100%;
+    /* height: 30px; */
+    align-items: center;
+    display: flex;
+    /* justify-content: start; */
+}
+span{
+    margin-left: 16px;
+}
+
+.bg_white{background: #fff !important;}
+.navbar_page .login_btn{border-radius: 25px !important; display: block; padding: 12px 20px; margin: 0 auto; color: #132B6B; font-weight: bold; }
+.navbar_page .login_btn .MuiButton-label{margin: 0; font-family: 'Roboto', sans-serif;  font-weight: bold;}
+
+.pointer {cursor: pointer;}
+
+.dash .dashboard_btn :hover {
+    background: #f5f5f5 !important; border: solid 0px #F66B6B; color: #F66B6B;
+}
